@@ -1,0 +1,2 @@
+# angularsails
+### a Sails application
