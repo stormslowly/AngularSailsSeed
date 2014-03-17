@@ -48,15 +48,4 @@ config/local.js
 ########################
 # bower install lib
 ########################
-assets/angular-animate/
-assets/angular-cookies/
-assets/angular-mocks/
-assets/angular-resource/
-assets/angular-route/
-assets/angular-sanitize/
-assets/angular-scenario/
-assets/angular/
-assets/bootstrap/
-assets/es5-shim/
-assets/jquery/
-assets/underscore/
+assets/vendor

@@ -1,6 +1,6 @@
 {
 
-  "directory": "assets/",
+  "directory": "assets/vendor",
   "testPath": "test/client/spec"
 
 }
