@@ -8,7 +8,7 @@ angular.module('angularfullstackApp')
       var obj = {};
       obj.getAll = function(){
 
-        return $http.get('/api/budgetItems').
+        return $http.get('/budgetitem').
                 success(function(items){
                   obj.items = items;
                   return items;
@@ -17,7 +17,7 @@ angular.module('angularfullstackApp')
 
       obj.add = function (newItem){
 
-        return $http.post('/api/budgetItems', _(newItem).clone()).
+        return $http.post('/budgetitem', _(newItem).clone()).
         success(function(item){
           newItem.description  = '';
           newItem.amount = '';
